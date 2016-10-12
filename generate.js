@@ -1,5 +1,6 @@
 
 const A = [
+  '',
   'pure',
   'simple',
   ''
@@ -20,6 +21,9 @@ const C = [
   'scala',
   'node',
   'react', 
+  'redux',
+  'saga',
+  'mobx',
   'baobab',
   'play',
   'database',

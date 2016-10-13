@@ -1,22 +1,42 @@
 
 const A = [
   '',
+  '',
   'pure',
   'simple',
+  'reverse',
+  '',
   ''
 ]
 const B = [
+  '',
+  '',
   'reactive', 
   'immutable',
   'persistent',
+  'postmodern',
   'modern',
   'slick',
   'stateless',
-  'async',
-  'promise',
+  '',
   ''
 ]
 const C = [
+  '',
+  'async',
+  'isomorphic',
+  '',
+  ''
+]
+const D = [
+  'login',
+  'translation',
+  'i18n',
+  'security',
+  'babel',
+  'test',
+  'web',
+  'webpack',
   'backend',
   'scala',
   'node',
@@ -28,9 +48,13 @@ const C = [
   'play',
   'database',
   'stream',
-  ''
+  'angular',
+  'aurelia',
+  'server',
+  'ractive',
+  'template'
 ]
-const D = [
+const E = [
   'view',
   'controller',
   'middleware',
@@ -39,14 +63,22 @@ const D = [
   'container',
   'renderer',
   'connector',
-  'router'
+  'builder',
+  'compiler',
+  'router',
+  'prefixer',
+  'reloader'
 ]
 
-const E = [
+const F = [
   '',
   'module',
   '',
   'engine',
+  'dispatcher',
+  'linter',
+  'validator',
+  '',
   ''
 ]
 
@@ -60,7 +92,8 @@ module.exports = function generate() {
     get(B),
     get(C),
     get(D),
-    get(E)
+    get(E),
+    get(F)
   ].filter(function(x){ return x !== ''}).join('-')
 }
 
